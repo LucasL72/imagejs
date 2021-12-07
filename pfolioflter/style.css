@@ -1,0 +1,46 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #65b35b;
+    padding: 20px;
+    font-family: Arial;
+}
+
+
+h1 {
+    font-size: 50px;
+    word-break: break-all;
+}
+
+
+/* Create three equal columns that floats next to each other */
+.filter {
+    display: none;
+    /* Hide all elements by default */
+}
+
+/* Clear floats after rows */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+/* The "show" class is added to the filtered elements */
+.show {
+    display:block;
+}
+
+
+
+.btn:hover {
+    background-color: #ddd;
+}
+
+.btn.active {
+    background-color: #666;
+    color: white;
+}
